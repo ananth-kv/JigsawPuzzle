@@ -1,0 +1,6 @@
+Siamese network - Puzzle 9 patch
+Imagenet data
+
+Model with:
+1. Original authors
+2. Alexnet
