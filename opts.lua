@@ -38,8 +38,8 @@ function M.parse(arg)
     cmd:option('-weightDecay',     5e-4, 'weight decay')
     ---------- Model options ----------------------------------
     cmd:option('-netType',     'alexnet_original', 'Options: alexnet | overfeat | alexnetowtbn | vgg | googlenet')
-    cmd:option('-retrain', 'imagenet/checkpoint/alexnet_original/WedJan2509:15:382017/model_12.t7', 'provide path to model to retrain with')
-    cmd:option('-optimState',  'imagenet/checkpoint/alexnet_original/WedJan2509:15:382017/optimState_12.t7', 'provide path to an optimState to reload from')
+    cmd:option('-retrain', 'none', 'provide path to model to retrain with')
+    cmd:option('-optimState',  '', 'provide path to an optimState to reload from')
     cmd:text()
 
     local opt = cmd:parse(arg or {})
