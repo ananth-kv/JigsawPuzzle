@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=5,7 th main.lua
+CUDA_VISIBLE_DEVICES=0 th main.lua
